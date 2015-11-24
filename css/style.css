@@ -196,20 +196,20 @@ hr {
       @media screen and (min-width: 992px) {
         .wrap .content .features {
           padding: 90px 15px; } }
+      .wrap .content .features h2 {
+        margin-bottom: 40px;
+        color: #222325;
+        font-size: 150%;
+        font-weight: 700; }
+        @media screen and (min-width: 992px) {
+          .wrap .content .features h2 {
+            margin-bottom: 60px;
+            font-size: 200%; } }
       .wrap .content .features .features-columns {
         margin-bottom: 30px; }
         @media screen and (min-width: 992px) {
           .wrap .content .features .features-columns {
             margin-bottom: 60px; } }
-        .wrap .content .features .features-columns h2 {
-          margin-bottom: 40px;
-          color: #222325;
-          font-size: 150%;
-          font-weight: 700; }
-          @media screen and (min-width: 992px) {
-            .wrap .content .features .features-columns h2 {
-              margin-bottom: 60px;
-              font-size: 200%; } }
         .wrap .content .features .features-columns .features-column {
           padding: 0 45px; }
           @media screen and (min-width: 992px) {
