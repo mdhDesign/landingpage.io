@@ -252,7 +252,15 @@ hr {
         margin: 0 auto;
       }
     }
-
+    h2 {
+      margin-bottom : $margin*4;
+      color         : $darkblue;
+      font-size     : 150%;
+      font-weight   : 700;
+      @media screen and (min-width: $screen-md) {
+        margin-bottom : $margin*6;
+        font-size     : 200%;
+      }
     .features {
       width      : 100%;
       padding    : $padding*4 0;
@@ -265,18 +273,7 @@ hr {
         @media screen and (min-width: $screen-md) {
           margin-bottom: $margin*6;
         }
-
-        h2 {
-          margin-bottom : $margin*4;
-          color         : $darkblue;
-          font-size     : 150%;
-          font-weight   : 700;
-
-          @media screen and (min-width: $screen-md) {
-            margin-bottom : $margin*6;
-            font-size     : 200%;
-          }
-        }
+      }
 
         .features-column {
           padding: 0 $padding*4.5;
